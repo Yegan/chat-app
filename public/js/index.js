@@ -8,4 +8,8 @@ socket.on('disconnect',function (){
     console.log('Disconnected from the server')
 });
 
+socket.on('newEmail', function (){
+console.log('New email');
+});
+
 
